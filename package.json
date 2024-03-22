@@ -1,0 +1,19 @@
+{
+  "name": "bisque-bot",
+  "version": "1.0.0",
+  "description": "One LeetCode a day, keep unemployment away!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LucasHo",
+  "license": "ISC",
+  "dependencies": {
+    "croner": "^8.0.1",
+    "discord.js": "^14.14.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
