@@ -16,6 +16,7 @@
   "dependencies": {
     "croner": "^8.0.1",
     "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
     "ngrok": "^5.0.0-beta.2",
     "node-fetch": "^3.3.2"
   },

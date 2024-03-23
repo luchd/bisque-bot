@@ -1,7 +1,9 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { Collection } = require('discord.js');
-const { token } = require('../config.json');
+// const { token } = require('../config.json');
+require('dotenv').config();
+const token = process.env.DISCORD_TOKEN;
 
 const client = require('./client');
 
