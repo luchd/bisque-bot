@@ -2,11 +2,15 @@
 	"extends": "eslint:recommended",
 	"env": {
 		"node": true,
+		// "serviceworker": true,
 		// "es6": true
 	},
 	"parserOptions": {
-		"ecmaVersion": 2021
+		"ecmaVersion": "latest"
 	},
+	"ignorePatterns": [
+		"node_modules"
+	],
 	"rules": {
         // "arrow-spacing": ["warn", { "before": true, "after": true }],
 		// "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],

@@ -75,11 +75,11 @@ const sendMessage = async (channelId, message) => {
 	.addFields(
 		{ name: '\u200A', value: '\u200A' },
 		{ name: 'Difficulty', value: message['difficulty'], inline: true },
-		{ name: '\u2009', value: '\u2009', inline: true },
+		{ name: '\u200A', value: '\u200A', inline: true },
 		{ name: 'Acceptance', value: message['acRate'], inline: true },
 		{ name: '\u200A', value: '\u200A' },
 		{ name: 'Date', value: message['date'], inline: true },
-		{ name: '\u2009', value: '\u2009', inline: true },
+		{ name: '\u200A', value: '\u200A', inline: true },
 		{ name: 'Topics', value: message['topicTags'], inline: true },
 	)
 	.setImage('https://assets.leetcode.com/contest/weekly-contest-290/card_img_1654267980.png')

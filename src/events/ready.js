@@ -4,6 +4,7 @@ const {Cron} = require('croner');
 
 const TEST_BOT_CHANNEL_ID = "1218967822445711531";
 const CRON_JOB_SCHEDULE_5_MINS = "*/5 * * * *";
+const CRON_JOB_SCHEDULE_9_PM = "0 4 * * *"; // 4am UTC (default) -> 9pm PT -> 11am ICT -> 12am ET
 
 module.exports = {
 	name: Events.ClientReady,

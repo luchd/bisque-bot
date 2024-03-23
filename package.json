@@ -2,8 +2,13 @@
   "name": "bisque-bot",
   "version": "1.0.0",
   "description": "One LeetCode a day, keep unemployment away!",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "dev": "wrangler dev src/index.js",
+    "ngrok": "ngrok http 8787",
+    "register": "node src/deploy-commands.js",
+    "publish": "wrangler deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "LucasHo",
@@ -11,9 +16,11 @@
   "dependencies": {
     "croner": "^8.0.1",
     "discord.js": "^14.14.1",
+    "ngrok": "^5.0.0-beta.2",
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "eslint": "^8.57.0"
+    "eslint": "^8.57.0",
+    "wrangler": "^3.36.0"
   }
 }
