@@ -13,12 +13,12 @@ module.exports = {
 		console.log(`Ready! Logged in as ${client.user.tag}`);
         
         // --- Run at execution for testing
-        // const thread = dailyCodingChallenge(TEST_BOT_CHANNEL_ID);
+        const thread = dailyCodingChallenge(TEST_BOT_CHANNEL_ID);
 
         // --- Cron job
-        const job = Cron(CRON_JOB_SCHEDULE_5_MINS, () => {
-            const thread = dailyCodingChallenge(TEST_BOT_CHANNEL_ID);
-            console.log("✅ ---A new message sent!!!");
-        });
+        // const job = Cron(CRON_JOB_SCHEDULE_5_MINS, () => {
+        //     const thread = dailyCodingChallenge(TEST_BOT_CHANNEL_ID);
+        //     console.log("✅ ---A new message sent!!!");
+        // });
 	},
 };
